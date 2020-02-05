@@ -53,7 +53,7 @@ class ResumePdf < Prawn::Document
 	      horizontal_line 0, 125, :at => 629
 	    end
 
-	    text_box "Inquisitive and Relentless. I've been developing for over a couple of years and started by self teaching and building projects on my own. Eventually, I was hired by a start-up company, Fix, where I really got to prove and also learn the ins and outs of a full-stack developer. I've always had an immense amount of passion for technology and the complexities behind how and why they work. And the philosophy behind my work ethic is 'If they are willing to help me learn, then I'm willing to apply my knowledge to help them grow.' ",
+	    text_box "Inquisitive and Relentless full-stack developer. I've been developing for over 2 years. Eventually, I was hired by the start-up company, 'Fix', where I really got to prove and also learn the ins and outs of a full-stack developer. While working at Fix, I've helped increase the productivity of our operations department substantially, and aided in the creation of their ecommerce site.  I've always had an immense amount of passion for technology and the complexities behind how and why they work. I'm seeking to use my frontend abilities to learn and create innovative technology for Sony. ",
 	    size: 10.5,
 		at: [0, 625],
 		width: 200,
@@ -108,25 +108,20 @@ class ResumePdf < Prawn::Document
 	    stroke do
 	    	rectangle [100, 350], 100, 5 
 	    end
-	    fill {rectangle [100, 350], 90, 5}
-
-    	text_box "Java",
-	    at: [0, 341],
-		size: 10
+		fill {rectangle [100, 350], 90, 5}
+		
 		stroke do
 	      stroke_color maroon
 	      line_width 1
 	      horizontal_line 0, 125, :at => 320
-	    end
-		stroke do
-			stroke_color gray
-	    	rectangle [100, 335], 100, 5 
-	    end
-	    fill {rectangle [100, 335], 30, 5}
+		end
+		stroke_color gray;
+	
 	    text_box "Frameworks & Software",
 	    at: [0, 318],
 	    size: 11,
-	    style: :italic
+		style: :italic
+		
 	    text_box "Rails",
 	    at: [0, 296],
 	    size: 10
