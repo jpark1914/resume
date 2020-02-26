@@ -53,7 +53,7 @@ class ResumePdf < Prawn::Document
 	      horizontal_line 0, 125, :at => 629
 	    end
 
-	    text_box "Inquisitive and Relentless full-stack developer. I've been developing for over 2 years. Eventually, I was hired by the start-up company, 'Fix', where I really got to prove and also learn the ins and outs of a full-stack developer. While working at Fix, I've helped increase the productivity of our operations department substantially, and aided in the creation of their ecommerce site.  I've always had an immense amount of passion for technology and the complexities behind how and why they work. I'm seeking to use my frontend abilities to learn and create innovative technology for Sony. ",
+	    text_box "Inquisitive and Relentless fullstack developer. I've been developing for over 2 years. Eventually, I was hired by the start-up company, 'Fix', where I really got to prove and also learn the ins and outs of a fullstack developer. While working at Fix, I've helped increase the productivity of our operations department substantially, and aided in the creation of the ecommerce site.  I've always had an immense amount of passion for technology and the complexities behind how and why they work. I'm seeking to use my fullstack abilities to learn and create innovative technology. ",
 	    size: 10.5,
 		at: [0, 625],
 		width: 200,
@@ -318,9 +318,9 @@ class ResumePdf < Prawn::Document
 	      line_width 1
 	      horizontal_line 300, 425, :at => 397
 	    end
-		text_box "-- Build scalable systems for a fast growing start-up.
-		-- Utilize modern technologies to make operable and efficient systems that reduce productivity time.
-		-- Work with CMS such as Shopify, and build a front end ecommerce using React, Gatsby.js, and Redux.
+		text_box "-- Built scalable systems for a fast growing start-up.
+		-- Utilize modern technologies such as, Ruby on Rails, Bootstrap, Postgres, Redis, and Heroku to make operable and efficient systems that reduce productivity time by 75%.
+		-- Work with CMS such as Shopify, and built a front end ecommerce using React, Gatsby.js, and Redux.
 		-- Handle deployment on cloud servers and utilize Amazon's cloud computing services. ",
 		size: 10,
 		at: [300, 390]
@@ -338,7 +338,7 @@ class ResumePdf < Prawn::Document
 	      line_width 1
 	      horizontal_line 300, 460, :at => 236
 	    end
-		text_box "-- Consult with client to understand businesss criteria.
+		text_box "-- Consult with client to understand business criteria.
 		-- Wire frame and plan within the scope of the client's needs.
 		-- Design and build a site that models and embodies that business. ",
 		size: 10,
